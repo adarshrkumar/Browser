@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Browser | Web Wizards</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <section top>
+        <div left>
+          <div div></div>
+        </div>
+        <div cleft>
+          <img favicon src="https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://bing.com">
+          <span title>Bing</span>
+          <div div></div>
+          <img src="/X.svg" closetab onclick="close('tab')"></img>
+        </div>
+        <div cright>
+          <div div></div>
+        </div>
+        <div right>
+          <div div>
+            <img src="/down-arrow-5.png" pointer alltabs onclick="alltabs()"></img>
+            <img src="https://is.gd/Underscore" pointer minimize onclick="minimize('script')"></img>
+            <div pointer maximize onclick="maximize()">🔲</div>
+            <img src="/X.svg" pointer close onclick="close()"></img>
+          </div>
+        </div>
+      </section>
+      <section middle>
+        <div left>
+          <img src="https://is.gd/L_Arrow" onclick="back()" pointer leftarrow>
+          <img src="https://is.gd/R_Arrow" onclick="forward()" pointer rightarrow>
+          <img src="https://is.gd/Reload_Icon" onclick="reload()" pointer reload>
+          <img src="/home-2502.svg" onclick="home(false)" pointer gohome>
+        </div>
+        <div center>
+          <img src="https://is.gd/Lock_Icon" privacy>
+          <input spellcheck="false">
+          <img src="" share>
+          <img src="" bookmark>
+        </div>
+        <div right>
+          <img src="" more>
+        </div>
+      </section>
+      <section bottom>
+        <div items>
+          <div item>
+            <img img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://bing.com">
+            <span text>
+              Bing
+            </span>
+          </div>
+        </div>
+      </section>
+    </header>
+    <div breaker style="margin: 0; display: none;" onmouseover="unmaximize()"></div>
+    <main>
+      <iframe iframe src="https://bing.com" style="height: 100%; width: 100%;" frameborder="0"></iframe>
+    </main>
+    <script src="script.js"></script>
+    <script src="functions.js"></script>
+  </body>
+</html>

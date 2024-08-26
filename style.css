@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+[pointer] {
+  cursor: pointer;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+main {
+  background-color: white;
+}
+
+header {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+header:hover {
+  display: normal;
+}
+
+header [top] {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+}
+
+header [top] [left] {
+  flex: 1;
+  display: flex;
+  background-color: white;
+}
+
+header [top] [left] [div] {
+  width: 100%;
+  padding-left: 10px;
+  background-color: lightgray;
+  border-bottom-right-radius: 5px;
+}
+
+header [top] [cleft] {
+  flex: 7;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  align-items: center;
+}
+
+header [top] [cleft] [favicon] {
+  padding-left: 5px;
+}
+
+header [top] [cleft] [title] {
+  flex: 1;
+  margin-left: 5px;
+}
+
+header [top] [cleft] [div] {
+  width: 140px;
+}
+
+header [top] [cleft] [closetab] {
+  width: 15px;
+  height: auto;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+header [top] [cright] {
+  flex: 1;
+  background-color: white;
+  display: flex;
+}
+
+header [top] [cright] [div] {
+  width: 100%;
+  padding-left: 10px;
+  background-color: lightgray;
+  border-bottom-left-radius: 5px;
+}
+
+header [top] [right] {
+  flex: 15;
+  transform: translate(-115px, 0);
+  display: flex;
+}
+
+header [top] [right] [div] {
+/*  transform: translate(15px, 0)*/
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+}
+
+header [middle] {
+  height: 30px;
+  padding: 5px 15px 5px 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+header [middle] [left] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+}
+
+header [middle] [left] [leftarrow] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+header [middle] [left] [rightarrow] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+header [middle] [left] [reload] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+header [middle] [left] [gohome] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+header [middle] [center] {
+  flex: 3.5;
+  padding: 1px 0 1px 0;
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  align-items: center;
+  border-radius: 15px;
+  background-color: lightgray;
+}
+
+header [middle] [center] [privacy] {
+  margin: 15px 15px 15px 15px;
+  width: 10px;
+  height: 15px;
+}
+
+header [middle] [center] input {
+  flex: 4;
+  height: 90%;
+  border: none;
+  border-radius: 25px;
+  background-color: lightgray;
+}
+
+header [middle] [center] input:focus {
+  outline: none;
+}
+
+header [middle] [center] [share] {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+header [middle] [center] [bookmark] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+header [bottom] {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  flex: 15;
+}
+
+footer {
+  flex: 1;
+}
